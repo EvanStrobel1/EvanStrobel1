@@ -39,7 +39,7 @@ I'm a professional and hobbyist developer experienced with numerous languages an
   ![image](https://user-images.githubusercontent.com/114700491/218200464-983beacc-472a-4076-b221-41efb2abda01.png)
 
   
-[Application Repository](/AppointmentManagementStrobel.zip)
+[Appointment Management Application Repository](/AppointmentManagementApp)
   
 </details>
 
@@ -59,7 +59,7 @@ I'm a professional and hobbyist developer experienced with numerous languages an
 
 
   
-[Inventory Management System Repository](/InventoryManagementStrobel.zip)
+[Inventory Management System Repository](/InventoryManagementApp)
 
 </details>
 
@@ -74,5 +74,6 @@ I'm a professional and hobbyist developer experienced with numerous languages an
   ![image](https://user-images.githubusercontent.com/114700491/218201463-3f1c6782-3d14-4686-8767-4b6b9812db95.png)
   ![image](https://user-images.githubusercontent.com/114700491/218201627-3e852494-9a36-4617-aa18-ded636837e71.png)
 
+  [Paradigm Pet Pros Repository](/ParadigmPetPros)
   
 </details>
