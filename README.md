@@ -18,11 +18,13 @@ I'm a professional and hobbyist developer experienced with numerous languages an
 
 #
 
-### Projects
+## Projects
 
-<details><summary>Appointment Management Application</summary>
+<details><summary><b>Appointment Management Application</b></summary>
   
-Java application for managing customers and appointments. 
+  <br />
+  
+  Java application for managing customers and appointments. 
   - Add new appointment data, including date, time, and business contact
   - Add new customer data, including address and phone number
   - Update and delete data in real time
@@ -31,33 +33,46 @@ Java application for managing customers and appointments.
   - Data manipulation date/time is logged
   - View schedules for business contacts
   
-![image](https://user-images.githubusercontent.com/114700491/217596552-adcfa15d-b049-4ed6-9054-813c5f3e3916.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218199678-b70f6887-caf7-446b-bc77-4ad624259aeb.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218200337-f4ed1fa6-adc7-45fb-8790-f21d47e8d884.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218200418-0fef858f-a984-4217-b9a1-55b8e4980367.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218200464-983beacc-472a-4076-b221-41efb2abda01.png)
+
   
 [Application Repository](/AppointmentManagementStrobel.zip)
   
 </details>
 
-<details><summary>Inventory Management Application</summary>
+<details><summary><b>Inventory Management Application</b></summary>
 
-[Inventory Management System](/InventoryManagementStrobel.zip)
+  <br />
+  
+  Java application for managing products and parts.
+  - Add, modify and delete parts and products
+  - Products include a list of needed parts
+  - Filter part and product lists via search bar
+  - Detects invalid input
+  - Confirmation dialogue boxes
+  
+  ![image](https://user-images.githubusercontent.com/114700491/218198065-9a7c272a-635f-4954-8fcb-dc5f875c8c9a.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218198608-d82f7756-fe52-401d-bee5-74a083a92fc2.png)
+
+
+  
+[Inventory Management System Repository](/InventoryManagementStrobel.zip)
 
 </details>
 
-<details><summary>Paradigm Pet Pros Website</summary>
+<details><summary><b>Paradigm Pet Pros Website</b></summary>
+  
+  <br />
+  
+  Website created for a mock pet consultancy.
+  - Utilizes HTML5, CSS and JavaScript
+  - Navigate between pages via navigation bar
+  
+  ![image](https://user-images.githubusercontent.com/114700491/218201463-3f1c6782-3d14-4686-8767-4b6b9812db95.png)
+  ![image](https://user-images.githubusercontent.com/114700491/218201627-3e852494-9a36-4617-aa18-ded636837e71.png)
+
   
 </details>
-
-<!--
-**EvanStrobel1/EvanStrobel1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
