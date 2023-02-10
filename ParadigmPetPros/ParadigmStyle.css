@@ -1,0 +1,81 @@
+body {
+	text-align: center;
+	padding: 2% 25%;
+	font-family: 'Roboto', sans-serif;
+	background: rgb(0,59,109);
+	background: linear-gradient(0deg, rgba(0,59,109,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+div.topnavbar {
+	background-color: #003B6D;
+	padding: 1%;
+}
+
+img.background {
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 25%;
+	z-index: -1;
+}
+
+.LinkList {
+	text-align: left;
+	padding-left: 20%;
+}
+
+.ConsultationForm {
+	background-color: #676767;
+	margin: 0% 25%;
+	padding: 1% 0% 3%;
+	border-radius: 4px;
+}
+
+.footerDiv {
+	background-color: #676767;
+	padding: 5% 0%;
+	margin: 1% 0% -4%;
+}
+
+.footerHeader {
+	color: white;
+}
+
+.footerButton {
+	background-color: #0f0f0f;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	font-size: 1em;
+	padding: 1% 5%;
+	transition-duration: .4s;
+	margin: 0% 1%;
+}
+
+.footerButton:hover {
+	background-color: #171717;
+}
+
+.footerButton:active {
+	background-color: #242424;
+}
+
+.button {
+	background-color: #6699CC;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	font-size: 1em;
+	padding: 1% 5%;
+	transition-duration: .4s;
+	margin: 0% 1%;
+}
+
+.button:hover {
+	background-color: #79b6f2;
+}
+
+.button:active {
+	background-color: #a6d2ff;
+}
