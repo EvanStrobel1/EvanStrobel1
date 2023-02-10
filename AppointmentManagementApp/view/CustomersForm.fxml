@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomersFormController">
+   <children>
+      <Label fx:id="labelCustomers" layoutX="24.0" layoutY="43.0" text="Customers">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableviewCustomers" layoutX="24.0" layoutY="107.0" prefHeight="287.0" prefWidth="752.0">
+        <columns>
+          <TableColumn fx:id="tablecolumnCustomerID" prefWidth="75.0" text="Customer ID" />
+          <TableColumn fx:id="tablecolumnCustomerName" prefWidth="46.0" text="Customer Name" />
+            <TableColumn fx:id="tablecolumnAddress" prefWidth="84.0" text="Address" />
+            <TableColumn fx:id="tablecolumnPostalCode" prefWidth="95.0" text="Postal Code" />
+            <TableColumn fx:id="tablecolumnPhone" prefWidth="75.0" text="Phone" />
+            <TableColumn fx:id="tablecolumnCreateDate" prefWidth="75.0" text="Create Date" />
+            <TableColumn fx:id="tablecolumnCreatedBy" prefWidth="75.0" text="Created By" />
+            <TableColumn fx:id="tablecolumnLastUpdate" prefWidth="75.0" text="Last Update" />
+            <TableColumn fx:id="tablecolumnLastUpdatedBy" prefWidth="75.0" text="Last Updated By" />
+            <TableColumn fx:id="tablecolumnDivisionID" prefWidth="76.0" text="Division ID" />
+        </columns>
+      </TableView>
+      <Button fx:id="buttonAppointments" layoutX="674.0" layoutY="46.0" mnemonicParsing="false" onAction="#onAction_buttonAppointments" text="Appointments &gt;" />
+      <HBox alignment="TOP_RIGHT" layoutX="406.0" layoutY="413.0" prefHeight="70.0" prefWidth="371.0" spacing="15.0">
+         <children>
+            <Button fx:id="buttonAdd" mnemonicParsing="false" onAction="#onActionButtonAdd" text="Add" />
+            <Button fx:id="buttonUpdate" mnemonicParsing="false" onAction="#onActionButtonUpdate" text="Update" />
+            <Button fx:id="buttonDelete" mnemonicParsing="false" onAction="#onActionButtonDelete" text="Delete" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

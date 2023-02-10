@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppointmentFormController">
+   <children>
+      <TableView fx:id="tableviewAppointments" layoutX="42.0" layoutY="124.0" prefHeight="275.0" prefWidth="766.0">
+        <columns>
+          <TableColumn fx:id="tablecolumnAppointmentID" prefWidth="102.0" text="Appointment ID" />
+          <TableColumn fx:id="tablecolumnTitle" prefWidth="45.0" text="Title" />
+            <TableColumn fx:id="tablecolumnDescription" prefWidth="78.0" text="Description" />
+            <TableColumn fx:id="tablecolumnLocation" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="tablecolumnContact" prefWidth="65.0" text="Contact" />
+            <TableColumn fx:id="tablecolumnType" prefWidth="59.0" text="Type" />
+            <TableColumn fx:id="tablecolumnStartDateTime" prefWidth="101.0" text="Start Date/Time" />
+            <TableColumn fx:id="tablecolumnEndDateTime" prefWidth="95.0" text="End Date/Time" />
+            <TableColumn fx:id="tablecolumnCustomerID" prefWidth="82.0" text="Customer ID" />
+            <TableColumn fx:id="tablecolumnUserID" prefWidth="63.0" text="User ID" />
+        </columns>
+      </TableView>
+      <Label fx:id="labelAppointments" layoutX="42.0" layoutY="57.0" text="Appointments">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonCustomers" layoutX="724.0" layoutY="60.0" mnemonicParsing="false" onAction="#onAction_buttonCustomers" text="Customers &gt;" />
+      <HBox alignment="TOP_RIGHT" layoutX="622.0" layoutY="412.0" prefHeight="72.0" prefWidth="186.0" spacing="15.0">
+         <children>
+            <Button fx:id="buttonAddAppointment" mnemonicParsing="false" onAction="#onAction_buttonAddAppointment" text="Add" />
+            <Button fx:id="buttonUpdateAppointment" mnemonicParsing="false" onAction="#onAction_buttonUpdateAppointment" text="Update" />
+            <Button fx:id="buttonDeleteAppointment" mnemonicParsing="false" onAction="#onAction_buttonDeleteAppointment" text="Delete" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="42.0" layoutY="412.0" prefHeight="25.0" prefWidth="266.0" spacing="15.0">
+         <children>
+            <RadioButton fx:id="radioMonthly" mnemonicParsing="false" onAction="#onAction_radioMonthly" selected="true" text="Monthly">
+               <toggleGroup>
+                  <ToggleGroup fx:id="togglegroupAppointments" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="radioWeekly" mnemonicParsing="false" onAction="#onAction_radioWeekly" text="Weekly" toggleGroup="$togglegroupAppointments" />
+            <Button fx:id="btnReport" mnemonicParsing="false" onAction="#onAction_btnReport" text="Report" />
+         </children>
+      </HBox>
+      <HBox layoutX="296.0" layoutY="412.0" prefHeight="72.0" prefWidth="286.0" spacing="15.0">
+         <children>
+            <ComboBox fx:id="comboSelectContact" prefWidth="150.0" promptText="Select Contact..." />
+            <Button fx:id="buttonSchedule" mnemonicParsing="false" onAction="#onAction_buttonSchedule" text="View Schedule" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

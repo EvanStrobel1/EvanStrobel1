@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <Label fx:id="labelLocation" alignment="CENTER" contentDisplay="CENTER" layoutX="56.0" layoutY="72.0" prefHeight="17.0" prefWidth="188.0" text="User Location" />
+      <Label fx:id="labelUserID" alignment="CENTER_RIGHT" layoutX="16.0" layoutY="115.0" prefHeight="25.0" prefWidth="95.0" text="User ID" />
+      <Label fx:id="labelPassword" alignment="CENTER_RIGHT" layoutX="16.0" layoutY="152.0" prefHeight="25.0" prefWidth="95.0" text="Password" wrapText="true" />
+      <TextField fx:id="textfieldUserID" layoutX="123.0" layoutY="115.0" />
+      <TextField fx:id="textfieldPassword" layoutX="123.0" layoutY="152.0" />
+      <Button fx:id="buttonLogIn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="223.0" layoutY="203.0" mnemonicParsing="false" onAction="#onAction_buttonLogIn" text="Log in" textAlignment="RIGHT" />
+   </children>
+</AnchorPane>
